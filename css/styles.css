@@ -102,6 +102,8 @@ li {
   letter-spacing: 0.06em;
   color: var(--sekondari-txt-color2--);
   background-color: var(--accent-txt-color--);
+  border: none;
+  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -124,7 +126,6 @@ li {
 }
 
 .benefits-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71px;
   letter-spacing: 0.03em;
@@ -164,8 +165,7 @@ li {
 }
 
 .team-text {
-  font-weight: 400;
-  font-size: 16px;
+   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
@@ -183,8 +183,7 @@ li {
 
 .address {
   font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
+   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--sekondari-txt-color2--);
@@ -197,4 +196,47 @@ li {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+/* Портфолио */
+
+.portfolio-title {
+  display: none;
+}
+
+.portfolio-bt {
+   font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+   text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--secondary-txt-color1--);
+  background-color: var(--secondary-bg-color);
+  border: none;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+  0px 1px 2px rgba(0, 0, 0, 0.08),
+  0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.portfolio-bt:hover,
+.portfolio-bt:focus {
+  color: var(--sekondari-txt-color2--);
+  background-color: var(--accent-txt-color--);
+}
+
+.portfolio-subtitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--secondary-txt-color1--);
+}
+
+.portfolio-text {
+   font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--main-txt-color--);
 }
